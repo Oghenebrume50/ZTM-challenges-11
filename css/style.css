@@ -1,0 +1,287 @@
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.huddle {
+    font: normal 600 3em/30% 'Open Sans',sans-serif
+}
+/*=======================
+    container 
+========================*/
+.contianer {
+    display: flex;
+    flex-direction: row;
+}
+
+.topDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: hsl(192, 100%, 9%);
+    margin-top: 5rem;
+}
+
+/*=====================
+    header
+=======================*/
+.header {
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 5em 0 5em;
+}
+
+/*======================
+    BelowHeader
+======================*/
+.captionDivHold {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caption {
+    justify-content: center;
+    font: normal 700 2em/80% 'Open Sans',sans-serif;
+    text-align: center;
+}
+
+.captionText {
+    text-align: center;
+}
+/*================
+    button
+=================*/
+
+.btn {
+    background: none;
+    border: 1px solid;
+    border-radius: 2em;
+    border-color: hsl(322, 100%, 66%);
+    width: 6em;
+    height: 2em;
+    color: hsl(322, 100%, 66%);
+}
+
+.bigbtn {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 15em;
+    height: 3em;
+}
+
+.btnSubscribe {
+    background-color: hsl(322, 100%, 66%);
+    border: 1px solid;
+    border-radius: 0.1em;
+    border-color: hsl(322, 100%, 66%);
+    width: 7em;
+    height: 2em;
+    color: hsl(207, 100%, 98%);
+}
+.logo {
+    width: 150px;
+    height: 30px;
+}
+
+/*=======================
+    body
+========================*/
+.mockup {
+    max-width: 80%;
+    height: auto;
+}
+.illustration {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+}
+
+.illustration div {
+    width: 50%;
+}
+
+.illustrateImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.topIllustrateBackground1 {
+    background-image: url(../image/bg-section-top-desktop-1.svg);
+    height: 10em;
+}
+
+.bottomIllustrateBackground1 {
+    background-image: url(../image/bg-section-bottom-desktop-1.svg);
+    height: 7em;
+}
+
+.topIllustrateBackground2 {
+    background-image: url(../image/bg-section-top-desktop-2.svg);
+    height: 10em;
+    margin-bottom: -5px;
+}
+
+.bottomIllustrateBackground2 {
+    background-image: url(../image/bg-section-bottom-desktop-2.svg);
+    height: 7em;
+}
+
+.illustrationBackground {
+    background-color: hsl(207, 100%, 98%);
+}
+
+.beforeFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p.boldSix {
+    font-weight: 600;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*======================
+    Show numbers 
+======================*/
+.boldNumbers {
+    font: Normal 700 6em/2% 'Poppins';
+    color: hsl(192, 100%, 9%);
+}
+
+/*====================
+    footer
+====================*/
+.topFooter {
+    background-image: url(../image/bg-footer-top-desktop.svg);
+    height: 10em;
+}
+
+.footerDiv {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -2px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    margin-top: 0;
+}
+.footerDiv p {
+    color: hsl(207, 100%, 98%);
+}
+
+div.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-basis: 100%
+}
+
+ion-icon {
+    display: flex;
+    background-color:  hsl(207, 100%, 98%);
+    margin-right: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+form input {
+    width: 17em;
+    margin-right: 1em;
+}
+
+.innerDiv {
+    flex-basis: 40%;
+}
+
+/*=======================
+    mobile styles
+=======================*/
+
+@media screen and (max-width: 375px) {
+
+    /*=====================
+    header
+    =======================*/
+    .header {
+        justify-content: space-between;
+        align-items: center;
+        margin: 1em 1em 0 1em;
+    }
+
+    /*=====================
+     Below header
+    =======================*/
+    .caption {
+        justify-content: center;
+        font: normal 700 2em/100% 'Open Sans',sans-serif;
+        text-align: center;
+    }
+
+    /*=======================
+    body
+    ========================*/
+    .topIllustrateBackground1 {
+        background-image: url(../image/bg-section-top-mobile-1.svg);
+        height: 5em;
+    }
+    
+    .bottomIllustrateBackground1 {
+        background-image: url(../image/bg-section-bottom-mobile-1.svg);
+        height: 3em;
+    }
+    
+    .topIllustrateBackground2 {
+        background-image: url(../image/bg-section-top-mobile-2.svg);
+        height: 6em;
+        margin-bottom: -5px;
+    }
+    
+    .bottomIllustrateBackground2 {
+        background-image: url(../image/bg-section-bottom-mobile-2.svg);
+        height: 3em;
+    }
+
+    /*======================
+    Show numbers 
+    ======================*/
+    .boldNumbers {
+        font: Normal 600 3em/2% 'Poppins';
+        color: hsl(192, 100%, 9%);
+    }
+
+    .showNumbers {
+        text-align: center
+    }
+
+    /*====================
+    footer
+    ====================*/
+
+    .beforeFooter p {
+        font: normal 700 1em/80% 'Open Sans',sans-serif;
+    }
+
+    .topFooter {
+        background-image: url(../image/bg-footer-top-mobile.svg);
+        height: 3em;
+    }
+
+    div.icons {
+        margin-left: 1em;
+    }
+} 
