@@ -1,6 +1,8 @@
 body, html {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .huddle {
@@ -256,6 +258,12 @@ form input {
         height: 3em;
     }
 
+    p.boldSix {
+        font-weight: 600;
+        font-size: 1em;
+        font-family: 'Poppins', sans-serif;
+    }
+
     /*======================
     Show numbers 
     ======================*/
@@ -283,5 +291,10 @@ form input {
 
     div.icons {
         margin-left: 1em;
+    }
+
+    form input {
+        width: 13em;
+        margin-right: 0.5em;
     }
 } 

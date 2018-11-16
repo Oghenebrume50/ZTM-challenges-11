@@ -120,12 +120,12 @@
                       To recieve tips on how to grow your community, <br /> sign up to our weekly newsletter. We’ll never 
                       send<br /> you spam or pass on your email address
                   </p>
-                  <p>
+                  <div>
                       <form>
                           <input type="text" /><BtnElement className="btnSubscribe">Subscribe</BtnElement>
                       </form>
                       
-                  </p>
+                  </div>
               </span>
           </div>
 
