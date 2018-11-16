@@ -112,7 +112,7 @@
               </span>
 
               <span>
-                  <p className="boldSix">
+                  <p className="boldSix newsLetter">
                       Newsletter
                   </p>
 
